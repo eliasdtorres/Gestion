@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>---------- Sistema de control de ventas y
+            caja-------------------</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4>
+                    <p>El proyecto consta del desarrollo de una app bajo el lenguaje Java usando MySql para la
+                        recoleccion de
+                        los
+                        datos,
+                        Spring Boot y Spring MVC y Spring Security,
+                        para el front se pretende utilizar además de HTML y CSS, Thymeleaf/Angular.
+                    </p>
+                </h4>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class=" col-md-11">
+                <p>La aplicación se trata de un control de ventas y cierre de caja.
+                    En dicha aplicación se debe poder cargar articulos con las siguientes caracteristicas:
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+
+                <ul>
+                    <li>
+                        - id de articulo</li>
+                    <li>
+                        - codigo de artículo</li>
+                    <li>
+                        - nombre de artículo</li>
+                    <li>
+                        - stock de existencias <ul>
+                            <li>se debe actualizar según venta o ingreso de mercadería</li>
+                        </ul>
+                    </li>
+                    <li>
+                        - precio de venta de artículo</li>
+                    <li>
+                        - costo de articulo</li>
+                    <li>
+                        - cantidad vendida</li>
+                    <li>
+
+                        - está en promoción?<ul>
+                            <li>si está en promociónn debe indicarse en pesos y porcentaje</li>
+                        </ul>
+                    </li>
+                    <li>
+                        - selector de tipo : venta/cambio/cambio+venta</li>
+                    <li>
+                        - campo vacío para agregar descuentos adicionales (en pesos) o quitar descuento según se
+                        requiera
+                        <ul>
+                            <li>debe
+                                poder
+                                visualizarse en tabla como porcentaje y pesos
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        - diferencia venta/costo <ul>
+                            <li> debe poder visualizarse en tabla como porcentaje y pesos</li>
+                        </ul>
+                    </li>
+
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3>Avanzado</h3>
+                                <ul>
+                                    <li>- generador de numero de ticket para cambios
+                                        <ul>
+                                            <li>debe indicar codigo de articulo</li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </li>
+                                    <li>El proyecto debe contar con BBDD
+                                        <ul>
+                                            <li>
+                                                - donde se aloje el stock
+                                            </li>
+                                            <li>- las ventas diarias
+                                                <ul>
+                                                    <li>las tablas de venta diaria
+                                                        deben poder agregar gastos de caja (compras de insumos u otros)
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li>- el cierre de caja
+                                                <ul>
+                                                    <li>las tablas del cierre de caja deben poder ser editables desde la
+                                                        aplicaciónn
+
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        - las tablas pueden ser editadas
+                                    </li>
+                                </ul>
+                                <h3>Avanzado</h3>
+                                <ul>
+                                    <li>- establecer un sistema de usuario donde solo superuser pueda acceder a la
+                                        ediciónn
+                                        de tablas.</li>
+                                    <li>que cada vez que se edite la table, se registre quien hizo la edicion, a que
+                                        hora y
+                                        fecha</li>
+                                    <li>el ultimo cambio quedara guardado en una nueva tabla que lleve el recuento de:
+                                        <ul>
+                                            <li>id.edicion</li>
+                                            <li>fecha hora de edicion</li>
+                                            <li>nombre de usuario que editó</li>
+                                            <li>el id de edicion se ingresará en un array que va a registrar al usuario
+                                            </li>
+                                            <li></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
